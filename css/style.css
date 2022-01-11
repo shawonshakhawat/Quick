@@ -1,0 +1,191 @@
+/*common css start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0F2656;
+
+}
+/*common css end*/
+/*header start*/
+header{
+	border-bottom: 1px solid #EEF0F3;
+    padding: 10px 0;
+}
+.container {
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+
+}
+
+.logo {
+	width: 10%;
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	width: 60%;
+	float: right;
+
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	margin: 0px 20px;
+	display: inline-block;
+	font-family: sans-serif;
+    font-size: 18px ;
+    color: #0F2656;
+    text-decoration: none;
+    
+}
+
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	padding: 70px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 60%;
+	
+
+}
+.b_content{
+	text-align: center;
+}
+.b_content h1{
+	margin: 0;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 70px;
+}
+.blue{
+	color: #008AFF;
+}
+.b_content p{
+	margin: 10px 0 20px;
+    line-height: 25px;
+    
+
+}
+.b_image{
+	width: 85%;
+	margin: 0 auto;
+	
+}
+.b_image img{
+	width: 100%;
+}
+/*banner end*/
+
+/*success start*/
+.success{
+	padding: 70px 0;
+}
+.s_content{
+	overflow: hidden;
+}
+.s_left{
+	width: 42%;
+	float: left;
+	text-align: left;
+}
+.s_left h2{
+	margin: 0;
+	font-size: 45px;
+	font-weight: 700;
+	color: #F15767;
+}
+.s_left p{
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: 28px;
+}
+.s_right{
+	width: 55%;
+	float: right;
+}
+.s_right h1{
+	margin: 0;
+	font-size: 48px;
+	font-weight: 700;
+
+}
+/*success end*/
+/*service start*/
+.service{
+	padding: 70PX 0;
+}
+.sr_content{
+	overflow: hidden;
+}
+.single{
+	margin-right: 2%;
+	width: 27.68%;
+	padding: 40px 2.16%;
+	float: left;
+}
+.single:last-child{
+	margin-right: 0;
+}
+.pink{
+	background-color: #FDEBED;
+}
+.nblue{
+	background-color: #EBF9F4;
+}
+.yellow{
+	background-color: #FFF7E8;
+}
+.sr_image{}
+.sr_image img{
+	width: 100%;
+}
+.single h2{
+	margin: 20px 0;
+	font-size: 20px;
+	font-weight: 700;
+}
+.single p{
+	margin: 0;
+	font-size: 17px;
+	line-height: 28px;
+}
+
+/*service end*/
+/*footer start*/
+footer{
+	background-color: #008AFF;
+	padding: 30px 0;
+}
+.f_text{
+	text-align: center;
+}
+.f_text p{
+	margin: 0;
+	color: #FDEBED;
+}
+.f_text p a{
+	text-decoration: none;
+	color: #EBF9F4;
+}
+
+/*footer end*/
